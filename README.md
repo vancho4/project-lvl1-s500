@@ -1,3 +1,3 @@
 # project-lvl1-s500
 
-https://asciinema.org/a/ouSqeuPLxRXBkIXS8ySjC7Agf
+<a href="https://asciinema.org/a/ouSqeuPLxRXBkIXS8ySjC7Agf"><img src="https://asciinema.org/a/ouSqeuPLxRXBkIXS8ySjC7Agf" width="836"/></a>
