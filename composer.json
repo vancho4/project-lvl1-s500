@@ -1,0 +1,12 @@
+{
+    "name": "vancho/brain-games",
+    "description": "First project",
+    "bin": ["bin/brain-games"],
+    "authors": [
+        {
+            "name": "Ivan Popov",
+            "email": "popov4ivan@gmail.com"
+        }
+    ],
+    "require": {}
+}
