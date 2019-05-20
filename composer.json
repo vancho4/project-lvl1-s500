@@ -1,7 +1,10 @@
 {
     "name": "vancho/brain-games",
     "description": "First project",
-    "bin": ["bin/brain-games", "bin/brain-even"],
+    "bin": {
+        "bin/brain-games", 
+	"bin/brain-even"
+    },
     "authors": [
         {
             "name": "Ivan Popov",
