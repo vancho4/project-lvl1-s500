@@ -19,22 +19,22 @@ function run()
         line("Question: %s", $number);
         $answer = prompt('Your answer');
         if ($number % 2 == 0 && $answer == 'yes') {
-	    line('Correct!');
+            line('Correct!');
             $counter++;
         } elseif ($number % 2 == 0 && $answer !== 'yes') {
-	    line('"%s" is wrong answer ;(. Correct answer was "yes"', $answer);
-	    line("Let's try again, %s!", $name);
-	    break;
+            line('"%s" is wrong answer ;(. Correct answer was "yes"', $answer);
+            line("Let's try again, %s!", $name);
+            break;
         } elseif ($number % 2 !== 0 && $answer == 'no') {
-	    line('Correct!');
-	    $counter++;
+            line('Correct!');
+            $counter++;
         } else {
-	    line('"%s" is wrong answer ;(. Correct answer was "no"', $answer);
-	    line("Let's try again, %s!", $name);
-	    break;
-	}
+            line('"%s" is wrong answer ;(. Correct answer was "no"', $answer);
+            line("Let's try again, %s!", $name);
+            break;
+        }
     }    
     if ($counter == 3) {
         return line("Congratulations, %s!", $name);
     }
-} 
+}
