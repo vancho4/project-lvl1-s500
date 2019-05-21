@@ -17,23 +17,22 @@ function run()
     for ($i = 1; $i <= 3; $i++) {
         $number = rand(1, 100);
         line("Question: %s", $number);
-        $answer = prompt('Your answer');
-        if (($number % 2 == 0 && $answer == 'yes') || ($number % 2 !== 0 && $answer == 'no')) {
-            line('Correct!');
+	$answer = prompt('Your answer');
+        if ($number % 2 === 0) {
+            $corrAnswer = 'yes';
+        } else {
+            $corrAnswer = 'no';
+        }
+        if ($answer === $corrAnswer) {
+            line('Correcr!');
             $counter++;
         } else {
-            if ($number % 2 == 0 && $answer !== 'yes') {
-                $corranswer = 'yes';
-            }
-            if ($number % 2 !== 0 && $answer !== 'no') {
-                $corranswer = 'no';
-            }
-            line('"%s" is wrong answer ;(. Correct answer was "%s"', $answer, $corranswer);
+            line('"%s" is wrong answer ;(. Correct answer was "%s"', $answer, $corrAnswer);
             line("Let's try again, %s!", $name);
             break;
         }
     }
-    if ($counter == 3) {
-        return line("Congratulations, %s!", $name);
+    if ($counter === 3) {
+        line("Congratulations, %s!", $name);
     }
 }
