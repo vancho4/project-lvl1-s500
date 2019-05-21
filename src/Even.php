@@ -21,7 +21,7 @@ function run()
             line('"%s" is wrong answer ;(. Correct answer was "%s"', $answer, $corrAnswer);
             line("Let's try again, %s!", $name);
             break;
-	}
-	if ($i === 3) line("Congratulations, %s!", $name);
+        }
+        if ($i === 3) line("Congratulations, %s!", $name);
     }
 }
