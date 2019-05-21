@@ -33,7 +33,7 @@ function run()
             line("Let's try again, %s!", $name);
             break;
         }
-    }    
+    }
     if ($counter == 3) {
         return line("Congratulations, %s!", $name);
     }
