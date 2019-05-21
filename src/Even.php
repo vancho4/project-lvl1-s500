@@ -26,5 +26,7 @@ function run()
             break;
         }
     }
-    if ($counter === 3) line("Congratulations, %s!", $name);
+    if ($counter === 3) {
+        line("Congratulations, %s!", $name);
+    }
 }
