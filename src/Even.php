@@ -11,17 +11,20 @@ function run()
     line('Answer "yes" if number even otherwise answer "no"');
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
+    $counter = 0;
     for ($i = 1; $i <= 3; $i++) {
-        line("Question: %s", $number = rand(1, 100));
+        $number = rand(1, 100);
+        line("Question: %s", $number);
         $answer = prompt('Your answer');
         ($number % 2 === 0) ? $corrAnswer = 'yes' : $corrAnswer = 'no';
         if ($answer === $corrAnswer) {
             line('Correct!');
+            $counter++;
         } else {
             line('"%s" is wrong answer ;(. Correct answer was "%s"', $answer, $corrAnswer);
             line("Let's try again, %s!", $name);
             break;
         }
-        if ($i === 3) line("Congratulations, %s!", $name);
     }
+    if ($counter === 3) line("Congratulations, %s!", $name);
 }
