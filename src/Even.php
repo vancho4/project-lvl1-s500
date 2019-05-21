@@ -17,7 +17,7 @@ function run()
     for ($i = 1; $i <= 3; $i++) {
         $number = rand(1, 100);
         line("Question: %s", $number);
-	$answer = prompt('Your answer');
+        $answer = prompt('Your answer');
         if ($number % 2 === 0) {
             $corrAnswer = 'yes';
         } else {
