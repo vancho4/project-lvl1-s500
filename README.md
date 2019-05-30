@@ -10,5 +10,7 @@ Brain-Even install and run:
 Brain-Calc install and run:
 <a href="https://asciinema.org/a/ftr7usfWFXBGQUnm36ObOFTdC" target="_blank"><img src="https://asciinema.org/a/ftr7usfWFXBGQUnm36ObOFTdC.svg" /></a>
 
-Brain-Gcd install and run:
+<div>
+<h1>Brain-Gcd install and run:</h1>
 <a href="https://asciinema.org/a/QlrqcMMRwvP1gMrHF7smfTNza" target="_blank"><img src="https://asciinema.org/a/QlrqcMMRwvP1gMrHF7smfTNza.svg" /></a>
+</div>
