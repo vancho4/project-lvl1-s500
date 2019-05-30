@@ -11,11 +11,12 @@ function run()
     line('Find the greatest common divisor of given numbers.');
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
-    function getDividers ($number) {
+    function getDividers($number)
+    {
         $result = [];
         for ($i = 1; $i <= $number; $i++) {
             if ($number % $i == 0) {
-            $result[] = $i;
+                $result[] = $i;
             }
         }
         return $result;
@@ -25,13 +26,13 @@ function run()
         $number1 = rand(1, 100);
         $number2 = rand(1, 100);
         $arrayDividersNumber1 = getDividers($number1);
-        $arrayDividersNumber2 = getDividers($number2); 
+        $arrayDividersNumber2 = getDividers($number2);
         foreach ($arrayDividersNumber1 as $key => $value) {
             foreach ($arrayDividersNumber2 as $key2 => $value2) {
                 if ($arrayDividersNumber1[$key] == $arrayDividersNumber2[$key2]) {
                     $maxDivider = $value;
                 }
-            } 
+            }
         }
         line("Question: %s", "{$number1} {$number2}");
         $answer = prompt('Your answer');
