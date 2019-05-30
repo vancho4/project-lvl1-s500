@@ -16,7 +16,7 @@ function run()
         for ($j = 2; $j <= $number / 2; $j++) {
             if ($number % $j == 0) {
                 return 'no';
-             }
+            }
         }
         return 'yes';
     }
