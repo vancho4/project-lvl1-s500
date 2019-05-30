@@ -1,7 +1,7 @@
 {
     "name": "vancho/brain-games",
     "description": "First project",
-    "bin": ["bin/brain-games", "bin/brain-even"],
+    "bin": ["bin/brain-games", "bin/brain-even", "bin/brain-calc"],
     "authors": [
         {
             "name": "Ivan Popov",
@@ -14,7 +14,8 @@
     "autoload": {
 	"files": [
 	    "src/Cli.php",
-	    "src/Even.php"
+        "src/Even.php",
+        "src/Calc.php"
 	]
     },
     "require": {
