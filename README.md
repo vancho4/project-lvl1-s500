@@ -18,6 +18,11 @@
 </div>
 <br>
 <div>
-<p>Brain-Gcd install and run:<p>
+<p>Brain-Gcd install and run:</p>
 <a href="https://asciinema.org/a/QlrqcMMRwvP1gMrHF7smfTNza" target="_blank"><img src="https://asciinema.org/a/QlrqcMMRwvP1gMrHF7smfTNza.svg" /></a>
+</div>
+<br>
+<div>
+<p>Brain-Progression install and run:</p>
+<a href="https://asciinema.org/a/C8Y9oGkCYKAO2YnVDZOrgkLuL" target="_blank"><img src="https://asciinema.org/a/C8Y9oGkCYKAO2YnVDZOrgkLuL.svg" /></a>
 </div>
