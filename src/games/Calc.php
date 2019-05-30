@@ -17,7 +17,7 @@ function run()
         $number2 = rand(1, 100);
         $operator = ['*','+','-'];
         $randOperator = $operator[array_rand($operator)];
-        switch($randOperator){
+        switch ($randOperator) {
             case '*':
                 $value = $number1 * $number2;
                 break;
