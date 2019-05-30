@@ -13,13 +13,13 @@ function run()
     line("Hello, %s!", $name);
     $counter = 0;
     for ($i = 1; $i <= 3; $i++) {
-        $startProgression = rand(1,100);
+        $startProgression = rand(1, 100);
         $result = [];
         $stringQuestion = '';
         for ($j = $startProgression; $j <= $startProgression + 18; $j += 2) {
             $result[] = $j;
         }
-        $randDots = rand(0,9);
+        $randDots = rand(0, 9);
         $corrAnswer = $result[$randDots];
         $result[$randDots] = '..';
         $stringQuestion = implode(' ', $result);
