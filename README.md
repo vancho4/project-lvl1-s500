@@ -26,3 +26,8 @@
 <p>Brain-Progression install and run:</p>
 <a href="https://asciinema.org/a/C8Y9oGkCYKAO2YnVDZOrgkLuL" target="_blank"><img src="https://asciinema.org/a/C8Y9oGkCYKAO2YnVDZOrgkLuL.svg" /></a>
 </div>
+<br>
+<div>
+<p>Brain-Prime install and run:</p>
+<a href="https://asciinema.org/a/uZKR7AWScf1MBZELd5qWsWJOc" target="_blank"><img src="https://asciinema.org/a/uZKR7AWScf1MBZELd5qWsWJOc.svg" /></a>
+</div>
