@@ -4,7 +4,7 @@
 </div>
 <div>
 <p>Brain-Games install:</p>
-<a href="https://asciinema.org/a/Wb60PjKPEMKyvPAKmyitYOynl" target="_blank"><img src="https://asciinema.org/a/Wb60PjKPEMKyvPAKmyitYOynl.svg" /></a>
+<a href="https://asciinema.org/a/TChpDx8NQ6vwCpIKoCzhbfXij" target="_blank"><img src="https://asciinema.org/a/TChpDx8NQ6vwCpIKoCzhbfXij.svg" /></a>
 </div>
 <br>
 <div>
