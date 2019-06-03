@@ -9,7 +9,7 @@ use function \BrainGames\Engine\engine;
 function run()
 {
     $task = 'What is the result of the expression?';
-    $getData = function() {
+    $getData = function () {
         $number1 = rand(1, 100);
         $number2 = rand(1, 100);
         $operator = ['*','+','-'];

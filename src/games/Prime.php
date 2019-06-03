@@ -18,7 +18,7 @@ function run()
         }
         return 'yes';
     }
-    $getData = function() {
+    $getData = function () {
         $number = rand(1, 100);
         $corrAnswer = getPrime($number);
         return [$number, $corrAnswer];

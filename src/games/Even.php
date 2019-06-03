@@ -6,7 +6,7 @@ use function \cli\line;
 use function \cli\prompt;
 use function \BrainGames\Engine\engine;
 
-function run() 
+function run()
 {
     $task = 'Answer "yes" if number even otherwise answer "no"';
     $getData = function () {

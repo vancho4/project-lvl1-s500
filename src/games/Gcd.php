@@ -19,7 +19,7 @@ function run()
         }
         return $result;
     }
-    $gameData = function() {
+    $gameData = function () {
         $number1 = rand(1, 100);
         $number2 = rand(1, 100);
         $arrayDividersNumber1 = getDividers($number1);

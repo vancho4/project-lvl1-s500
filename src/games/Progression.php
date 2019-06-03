@@ -9,7 +9,7 @@ use function \BrainGames\Engine\engine;
 function run()
 {
     $task = 'What number is missing in the progression?';
-    $getData = function() {
+    $getData = function () {
         $startProgression = rand(1, 100);
         $result = [];
         for ($i = $startProgression; $i <= $startProgression + 18; $i += 2) {
