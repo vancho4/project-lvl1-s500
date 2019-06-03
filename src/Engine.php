@@ -5,6 +5,7 @@ namespace BrainGames\Engine;
 use function \cli\line;
 use function \cli\prompt;
 
+const STEPS = 3;
 function engine($task, $getData)
 {
     line('Welcome to the Brain Games!');
@@ -12,7 +13,7 @@ function engine($task, $getData)
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
     $counter = 0;
-    for ($i = 1; $i <= 3; $i++) {
+    for ($i = 1; $i <= STEPS; $i++) {
         [$question, $corrAnswer] = $getData();
         line("Question: %s", $question);
         $answer = prompt('Your answer');
@@ -25,7 +26,7 @@ function engine($task, $getData)
             break;
         }
     }
-    if ($counter === 3) {
+    if ($counter === STEPS) {
         line("Congratulations, %s!", $name);
     }
 }

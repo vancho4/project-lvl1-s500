@@ -1,6 +1,8 @@
 {
     "name": "vancho/brain-games",
-    "description": "First project",
+    "description": "First hexlet project",
+    "keywords": ["games", "brain"],
+    "type": "library",
     "bin": [
         "bin/brain-even",
         "bin/brain-calc",
