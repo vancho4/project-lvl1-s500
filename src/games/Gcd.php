@@ -22,15 +22,10 @@ function run()
     $gameData = function () {
         $number1 = rand(1, 100);
         $number2 = rand(1, 100);
-        $arrayDividersNumber1 = getDividers($number1);
-        $arrayDividersNumber2 = getDividers($number2);
-        foreach ($arrayDividersNumber1 as $key => $value) {
-            foreach ($arrayDividersNumber2 as $key2 => $value2) {
-                if ($arrayDividersNumber1[$key] == $arrayDividersNumber2[$key2]) {
-                    $corrAnswer = $value;
-                }
-            }
-        }
+        $dividersNumber1 = getDividers($number1);
+        $dividersNumber2 = getDividers($number2);
+        $dividersTwoNumbers = array_intersect($dividersNumber1, $dividersNumber2);
+        $corrAnswer = max($dividersTwoNumbers);
         $question = "{$number1} {$number2}";
         return [$question, $corrAnswer];
     };
