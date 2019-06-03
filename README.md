@@ -3,31 +3,31 @@
 <p><a href="https://codeclimate.com/github/vancho4/project-lvl1-s500/maintainability"><img src="https://api.codeclimate.com/v1/badges/80f6dbc00a29a5e71ae2/maintainability" /></a> <a href="https://codeclimate.com/github/vancho4/project-lvl1-s500/test_coverage"><img src="https://api.codeclimate.com/v1/badges/80f6dbc00a29a5e71ae2/test_coverage" /></a> <a href="https://travis-ci.org/vancho4/project-lvl1-s500.svg?branch=master"><img src="https://travis-ci.org/vancho4/project-lvl1-s500.svg?branch=master"/></a></p>
 </div>
 <div>
-<p>Brain-Games install and run:</p>
-<a href="https://asciinema.org/a/ouSqeuPLxRXBkIXS8ySjC7Agf"><img src="https://asciinema.org/a/ouSqeuPLxRXBkIXS8ySjC7Agf.png" width="100%"/></a>
+<p>Brain-Games install:</p>
+<a href="https://asciinema.org/a/Wb60PjKPEMKyvPAKmyitYOynl" target="_blank"><img src="https://asciinema.org/a/Wb60PjKPEMKyvPAKmyitYOynl.svg" /></a>
 </div>
 <br>
 <div>
-<p>Brain-Even install and run:</p>
-<a href="https://asciinema.org/a/5mL3mPQUNPt9W9zVcMLCkvHD7"><img src="https://asciinema.org/a/5mL3mPQUNPt9W9zVcMLCkvHD7.png" width="100%"/></a>
+<p>Brain-Even:</p>
+<a href="https://asciinema.org/a/rPRmRLR3TabGzNQ45sKWLZ11e" target="_blank"><img src="https://asciinema.org/a/rPRmRLR3TabGzNQ45sKWLZ11e.svg" /></a>
 </div>
 <br>
 <div>
-<p>Brain-Calc install and run:</p>
-<a href="https://asciinema.org/a/ftr7usfWFXBGQUnm36ObOFTdC" target="_blank"><img src="https://asciinema.org/a/ftr7usfWFXBGQUnm36ObOFTdC.svg" /></a>
+<p>Brain-Calc:</p>
+<a href="https://asciinema.org/a/ZqxEA4i4nMNobEQ00jZ7jNpHb" target="_blank"><img src="https://asciinema.org/a/ZqxEA4i4nMNobEQ00jZ7jNpHb.svg" /></a>
 </div>
 <br>
 <div>
-<p>Brain-Gcd install and run:</p>
-<a href="https://asciinema.org/a/QlrqcMMRwvP1gMrHF7smfTNza" target="_blank"><img src="https://asciinema.org/a/QlrqcMMRwvP1gMrHF7smfTNza.svg" /></a>
+<p>Brain-Gcd:</p>
+<a href="https://asciinema.org/a/FUmwGo3dYKKqFJCuP3IyvSKPm" target="_blank"><img src="https://asciinema.org/a/FUmwGo3dYKKqFJCuP3IyvSKPm.svg" /></a>
 </div>
 <br>
 <div>
-<p>Brain-Progression install and run:</p>
-<a href="https://asciinema.org/a/C8Y9oGkCYKAO2YnVDZOrgkLuL" target="_blank"><img src="https://asciinema.org/a/C8Y9oGkCYKAO2YnVDZOrgkLuL.svg" /></a>
+<p>Brain-Progression:</p>
+<a href="https://asciinema.org/a/I01OEylOs3zYHfD9BS7VNJPMs" target="_blank"><img src="https://asciinema.org/a/I01OEylOs3zYHfD9BS7VNJPMs.svg" /></a>
 </div>
 <br>
 <div>
-<p>Brain-Prime install and run:</p>
-<a href="https://asciinema.org/a/uZKR7AWScf1MBZELd5qWsWJOc" target="_blank"><img src="https://asciinema.org/a/uZKR7AWScf1MBZELd5qWsWJOc.svg" /></a>
+<p>Brain-Prime:</p>
+<a href="https://asciinema.org/a/NFOvoR13B3dAOT2FDaDpK1AqW" target="_blank"><img src="https://asciinema.org/a/NFOvoR13B3dAOT2FDaDpK1AqW.svg" /></a>
 </div>
