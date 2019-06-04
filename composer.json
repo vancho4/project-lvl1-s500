@@ -2,7 +2,7 @@
     "name": "vancho/brain-games",
     "description": "First hexlet project",
     "keywords": ["games", "brain"],
-    "type": "library",
+    "type": "project",
     "bin": [
         "bin/brain-even",
         "bin/brain-calc",
@@ -21,7 +21,7 @@
     },
     "autoload": {
 	"files": [
-	    "src/Engine.php",
+        "src/Engine.php",
         "src/games/Even.php",
         "src/games/Calc.php",
         "src/games/Gcd.php",
@@ -30,7 +30,6 @@
 	]
     },
     "require": {
-        "php": "^7.2",
         "wp-cli/php-cli-tools": "^0.11.11"
     },
     "require-dev": {

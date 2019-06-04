@@ -6,20 +6,23 @@ use function \cli\line;
 use function \cli\prompt;
 use function \BrainGames\Engine\engine;
 
+const TASK = 'What number is missing in the progression?';
+const PROGRESSION_LENGTH_NUMBERS = 10;
+const PROGRESSION_STEP = 2;
+
 function run()
 {
-    $task = 'What number is missing in the progression?';
     $getData = function () {
         $startProgression = rand(1, 100);
         $result = [];
-        for ($i = $startProgression; $i <= $startProgression + 18; $i += 2) {
-            $result[] = $i;
+        for ($i = 0; $i < PROGRESSION_LENGTH_NUMBERS; $i++) {
+            $result[] = $startProgression + PROGRESSION_STEP * $i;
         }
-        $randDots = rand(0, 9);
-        $corrAnswer = $result[$randDots];
-        $result[$randDots] = '..';
+        $randomDots = rand(0, PROGRESSION_LENGTH_NUMBERS - 1);
+        $correctAnswer = $result[$randomDots];
+        $result[$randomDots] = '..';
         $question = implode(' ', $result);
-        return [$question, $corrAnswer];
+        return [$question, $correctAnswer];
     };
-    engine($task, $getData);
+    engine(TASK, $getData);
 }

@@ -6,13 +6,19 @@ use function \cli\line;
 use function \cli\prompt;
 use function \BrainGames\Engine\engine;
 
+const TASK = 'Answer "yes" if number even otherwise answer "no"';
+
+function isEven($number)
+{
+    return $number % 2 === 0;
+}
+
 function run()
 {
-    $task = 'Answer "yes" if number even otherwise answer "no"';
     $getData = function () {
-        $number = rand(1, 100);
-        ($number % 2 === 0) ? $corrAnswer = 'yes' : $corrAnswer = 'no';
-        return [$number, $corrAnswer];
+        $question = rand(1, 100);
+        $correctAnswer = isEven($question) ? "yes" : "no";
+        return [$question, $correctAnswer];
     };
-    engine($task, $getData);
+    engine(TASK, $getData);
 }

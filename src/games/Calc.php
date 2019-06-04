@@ -6,27 +6,28 @@ use function \cli\line;
 use function \cli\prompt;
 use function \BrainGames\Engine\engine;
 
+const TASK = 'What is the result of the expression?';
+
 function run()
 {
-    $task = 'What is the result of the expression?';
     $getData = function () {
         $number1 = rand(1, 100);
         $number2 = rand(1, 100);
-        $operator = ['*','+','-'];
-        $randOperator = $operator[array_rand($operator)];
-        switch ($randOperator) {
+        $operators = ['*','+','-'];
+        $randomOperator = $operators[array_rand($operators)];
+        switch ($randomOperator) {
             case '*':
-                $corrAnswer = $number1 * $number2;
+                $correctAnswer = $number1 * $number2;
                 break;
             case '+':
-                $corrAnswer = $number1 + $number2;
+                $correctAnswer = $number1 + $number2;
                 break;
             case '-':
-                $corrAnswer = $number1 - $number2;
+                $correctAnswer = $number1 - $number2;
                 break;
         }
-        $question = "{$number1} {$randOperator} {$number2}";
-        return [$question, $corrAnswer];
+        $question = "$number1 $randomOperator $number2";
+        return [$question, $correctAnswer];
     };
-    engine($task, $getData);
+    engine(TASK, $getData);
 }
