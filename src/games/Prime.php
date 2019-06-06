@@ -1,16 +1,14 @@
 <?php
 
-namespace BrainGames\Prime;
+namespace BrainGames\prime;
 
-use function \cli\line;
-use function \cli\prompt;
-use function \BrainGames\Engine\engine;
+use function \BrainGames\engine\engine;
 
 const TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 function isPrime($number)
 {
-    if ($number === 1) {
+    if ($number <= 1) {
         return false;
     }
     for ($i = 2; $i <= $number / 2; $i++) {

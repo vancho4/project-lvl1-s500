@@ -1,20 +1,18 @@
 <?php
 
-namespace BrainGames\Calc;
+namespace BrainGames\calc;
 
-use function \cli\line;
-use function \cli\prompt;
-use function \BrainGames\Engine\engine;
+use function \BrainGames\engine\engine;
 
 const TASK = 'What is the result of the expression?';
+const OPERATORS = ['*','+','-'];
 
 function run()
 {
     $getData = function () {
         $number1 = rand(1, 100);
         $number2 = rand(1, 100);
-        $operators = ['*','+','-'];
-        $randomOperator = $operators[array_rand($operators)];
+        $randomOperator = OPERATORS[array_rand(OPERATORS)];
         switch ($randomOperator) {
             case '*':
                 $correctAnswer = $number1 * $number2;

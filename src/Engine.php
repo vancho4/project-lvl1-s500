@@ -1,11 +1,11 @@
 <?php
 
-namespace BrainGames\Engine;
+namespace BrainGames\engine;
 
 use function \cli\line;
 use function \cli\prompt;
 
-const STEPSCOUNT = 3;
+const STEPS_COUNT = 3;
 
 function engine($task, $getData)
 {
@@ -13,7 +13,7 @@ function engine($task, $getData)
     line($task);
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
-    for ($i = 1; $i <= STEPSCOUNT; $i++) {
+    for ($i = 1; $i <= STEPS_COUNT; $i++) {
         [$question, $correctAnswer] = $getData();
         line("Question: %s", $question);
         $answer = prompt('Your answer');

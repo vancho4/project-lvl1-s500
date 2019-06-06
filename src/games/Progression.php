@@ -1,27 +1,31 @@
 <?php
 
-namespace BrainGames\Progression;
+namespace BrainGames\progression;
 
-use function \cli\line;
-use function \cli\prompt;
-use function \BrainGames\Engine\engine;
+use function \BrainGames\engine\engine;
 
 const TASK = 'What number is missing in the progression?';
-const PROGRESSION_LENGTH_NUMBERS = 10;
-const PROGRESSION_STEP = 2;
+const PROGRESSION_LENGTH = 10;
+
+function getProgression($firstNumberProgression, $progressionStep) 
+{
+    $result = [];
+    for ($i = 0; $i < PROGRESSION_LENGTH; $i++) {
+        $result[] = $firstNumberProgression + $progressionStep * $i;
+    }
+    return $result;
+}
 
 function run()
 {
     $getData = function () {
-        $startProgression = rand(1, 100);
-        $result = [];
-        for ($i = 0; $i < PROGRESSION_LENGTH_NUMBERS; $i++) {
-            $result[] = $startProgression + PROGRESSION_STEP * $i;
-        }
-        $randomDots = rand(0, PROGRESSION_LENGTH_NUMBERS - 1);
-        $correctAnswer = $result[$randomDots];
-        $result[$randomDots] = '..';
-        $question = implode(' ', $result);
+        $firstNumberProgression = rand(1, 100);
+        $progressionStep = rand(2, 10);
+        $progression = getProgression($firstNumberProgression, $progressionStep);
+        $hiddenNumber = rand(0, PROGRESSION_LENGTH - 1);
+        $correctAnswer = $progression[$hiddenNumber];
+        $progression[$hiddenNumber] = '..';
+        $question = implode(' ', $progression);
         return [$question, $correctAnswer];
     };
     engine(TASK, $getData);

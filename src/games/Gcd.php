@@ -1,22 +1,21 @@
 <?php
 
-namespace BrainGames\Gcd;
+namespace BrainGames\gcd;
 
-use function \cli\line;
-use function \cli\prompt;
-use function \BrainGames\Engine\engine;
+use function \BrainGames\engine\engine;
 
 const TASK = 'Find the greatest common divisor of given numbers.';
 
-function getDividers($number)
+function getGcd($number1, $number2)
 {
-    $result = [];
-    for ($i = 1; $i <= $number; $i++) {
-        if ($number % $i === 0) {
-            $result[] = $i;
+    $minimumNumber = min($number1, $number2);
+    $divider = 1;
+    for ($i = 2; $i <= $minimumNumber; $i++) {
+        if ($number1 % $i === 0 && $number2 % $i === 0) {
+            $divider = $i;
         }
     }
-    return $result;
+    return $divider;
 }
 
 function run()
@@ -24,10 +23,7 @@ function run()
     $gameData = function () {
         $number1 = rand(1, 100);
         $number2 = rand(1, 100);
-        $dividersNumber1 = getDividers($number1);
-        $dividersNumber2 = getDividers($number2);
-        $dividersTwoNumbers = array_intersect($dividersNumber1, $dividersNumber2);
-        $correctAnswer = max($dividersTwoNumbers);
+        $correctAnswer = getGcd($number1, $number2);
         $question = "$number1 $number2";
         return [$question, $correctAnswer];
     };

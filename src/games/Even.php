@@ -1,10 +1,8 @@
 <?php
 
-namespace BrainGames\Even;
+namespace BrainGames\even;
 
-use function \cli\line;
-use function \cli\prompt;
-use function \BrainGames\Engine\engine;
+use function \BrainGames\engine\engine;
 
 const TASK = 'Answer "yes" if number even otherwise answer "no"';
 
