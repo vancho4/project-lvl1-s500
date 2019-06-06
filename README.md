@@ -24,7 +24,7 @@
 <br>
 <div>
 <p>Brain-Progression:</p>
-<a href="https://asciinema.org/a/I01OEylOs3zYHfD9BS7VNJPMs" target="_blank"><img src="https://asciinema.org/a/I01OEylOs3zYHfD9BS7VNJPMs.svg" /></a>
+<a href="https://asciinema.org/a/xvBt1IK1W6DUMEALQQ78eDtcz" target="_blank"><img src="https://asciinema.org/a/xvBt1IK1W6DUMEALQQ78eDtcz.svg" /></a>
 </div>
 <br>
 <div>
