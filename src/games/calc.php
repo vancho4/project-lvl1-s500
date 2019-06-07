@@ -28,9 +28,9 @@ function run()
     $getData = function () {
         $number1 = rand(1, 100);
         $number2 = rand(1, 100);
-        $randomOperator = OPERATORS[array_rand(OPERATORS)];
-        $question = "$number1 $randomOperator $number2";
-        $correctAnswer = getResultExpression($number1, $number2, $randomOperator);
+        $operator = OPERATORS[array_rand(OPERATORS)];
+        $question = "$number1 $operator $number2";
+        $correctAnswer = getResultExpression($number1, $number2, $operator);
         return [$question, $correctAnswer];
     };
     engine(TASK, $getData);

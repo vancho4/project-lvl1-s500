@@ -6,12 +6,12 @@ use function \BrainGames\engine\engine;
 
 const TASK = 'Find the greatest common divisor of given numbers.';
 
-function getGcd($number1, $number2)
+function getGcd($a, $b)
 {
-    $minimumNumber = min($number1, $number2);
+    $minimumNumber = min($a, $b);
     $divider = 1;
     for ($i = 2; $i <= $minimumNumber; $i++) {
-        if ($number1 % $i === 0 && $number2 % $i === 0) {
+        if ($a % $i === 0 && $b % $i === 0) {
             $divider = $i;
         }
     }
