@@ -1,5 +1,5 @@
 # The first project in the courses hexlet: a set of mini-games launched from the console "Brain Games".
-![https://codeclimate.com/github/vancho4/project-lvl1-s500/maintainability"><img src="https://api.codeclimate.com/v1/badges/80f6dbc00a29a5e71ae2/maintainability"]("https://travis-ci.org/vancho4/project-lvl1-s500"><img src="https://travis-ci.org/vancho4/project-lvl1-s500.svg?branch=master")
+![https://api.codeclimate.com/v1/badges/80f6dbc00a29a5e71ae2/maintainability](https://travis-ci.org/vancho4/project-lvl1-s500)
 <div>
 <p><a href="https://codeclimate.com/github/vancho4/project-lvl1-s500/maintainability"><img src="https://api.codeclimate.com/v1/badges/80f6dbc00a29a5e71ae2/maintainability" /></a> <a href="https://travis-ci.org/vancho4/project-lvl1-s500"><img src="https://travis-ci.org/vancho4/project-lvl1-s500.svg?branch=master"/></a></p>
 </div>
