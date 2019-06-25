@@ -1,13 +1,18 @@
 # The first project in the courses "hexlet": a set of mini-games launched from the console "Brain Games".
+[About the project](https://ru.hexlet.io/professions/php/projects/7)
 
 ## Badges
 [![](https://api.codeclimate.com/v1/badges/80f6dbc00a29a5e71ae2/maintainability)](https://codeclimate.com/github/vancho4/project-lvl1-s500/maintainability) [![](https://travis-ci.org/vancho4/project-lvl1-s500.svg?branch=master)](https://travis-ci.org/vancho4/project-lvl1-s500)
 
-![](https://travis-ci.org/vancho4/project-lvl1-s500.svg?branch=master)
-
 ## Install
     composer global require vancho/brain-games
 
+## Run
+    brain-even - the user is shown a random number. And he needs to answer "yes", if the number is even, or "no" - if it is odd.
+    brain-calc - the user is shown a random mathematical expression, for example 35 + 16, which needs to be calculated and the correct   answer written down.
+    brain-gcd - the user is shown two random numbers, for example, 25 50. The user must calculate and enter the greatest common divider of these numbers.
+    brain-progression - the user is shown a series of numbers that form an arithmetic progression, one number is hidden. The user must define this number.
+    brain-prime - the user is shown a random number. And he needs to answer “yes”, if the given number is simple. Otherwise, answer "no."
 <div>
 <p>Brain-Games install:</p>
 <a href="https://asciinema.org/a/TChpDx8NQ6vwCpIKoCzhbfXij" target="_blank"><img src="https://asciinema.org/a/TChpDx8NQ6vwCpIKoCzhbfXij.svg" /></a>
