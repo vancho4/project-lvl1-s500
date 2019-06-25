@@ -8,11 +8,11 @@
     composer global require vancho/brain-games
 
 ## Run
-    **brain-even** - the user is shown a random number. And he needs to answer "yes", if the number is even, or  "no" - if it is odd.
-    **brain-calc** - the user is shown a random mathematical expression, for example 35 + 16, which needs to be  calculated and the correct answer written down.
-    **brain-gcd** - the user is shown two random numbers, for example, 25 50. The user must calculate and enter  the greatest common divider of these numbers.
-    **brain-progression** - the user is shown a series of numbers that form an arithmetic progression, one number  is hidden. The user must define this number.
-    **brain-prime** - the user is shown a random number. And he needs to answer “yes”, if the given number is  simple. Otherwise, answer "no."
+    __brain-even__ - the user is shown a random number. And he needs to answer "yes", if the number is even, or  "no" - if it is odd.
+    __brain-calc__ - the user is shown a random mathematical expression, for example 35 + 16, which needs to be  calculated and the correct answer written down.
+    __brain-gcd__ - the user is shown two random numbers, for example, 25 50. The user must calculate and enter  the greatest common divider of these numbers.
+    __brain-progression__ - the user is shown a series of numbers that form an arithmetic progression, one number  is hidden. The user must define this number.
+    __brain-prime__ - the user is shown a random number. And he needs to answer “yes”, if the given number is  simple. Otherwise, answer "no."
 
 ## Asciinema
 
