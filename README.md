@@ -1,4 +1,4 @@
-# The first project in the courses "hexlet": a set of mini-games launched from the console "Brain Games".
+# The first project of the "hexlet" courses: a set of mini-games launched from the console "Brain Games".
 [About the project.](https://ru.hexlet.io/professions/php/projects/7)
 
 ## Badges
