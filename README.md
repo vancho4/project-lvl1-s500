@@ -1,4 +1,5 @@
 # The first project in the courses hexlet: a set of mini-games launched from the console "Brain Games".
+![](https://api.codeclimate.com/v1/badges/80f6dbc00a29a5e71ae2/maintainability)
 ## Install ##
     composer global require vancho/brain-games
 <div>
