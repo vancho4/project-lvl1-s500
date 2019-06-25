@@ -1,7 +1,7 @@
 # The first project in the courses "hexlet": a set of mini-games launched from the console "Brain Games".
 
 ## Badges
-[(https://api.codeclimate.com/v1/badges/80f6dbc00a29a5e71ae2/maintainability)](https://codeclimate.com/github/vancho4/project-lvl1-s500/maintainability
+![(https://api.codeclimate.com/v1/badges/80f6dbc00a29a5e71ae2/maintainability)](https://codeclimate.com/github/vancho4/project-lvl1-s500/maintainability
 
 ![](https://travis-ci.org/vancho4/project-lvl1-s500.svg?branch=master)
 
